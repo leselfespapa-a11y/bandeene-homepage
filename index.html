@@ -1,19 +1,729 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
 <title>Bandeene 반디네 | 작은 빛에서 시작되는 좋은 아이디어</title>
-<meta name="description" content="반디네는 일상의 불편을 발견하고 사람을 위한 기술과 서비스를 만듭니다.">
+
+<meta
+  name="description"
+  content="반디네는 일상의 불편을 발견하고 사람을 위한 기술과 서비스를 만듭니다."
+>
+
 <style>
-:root{--deep:#073b31;--deep2:#032820;--mint:#70e6c1;--mint2:#c8f7e8;--ink:#12221e;--soft:#f5fbf8;--line:#dcebe5}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans KR","Malgun Gothic",sans-serif;color:var(--ink);background:white}a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 24px}header{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:22px}.mark{width:38px;height:38px;position:relative}.mark:before,.mark:after{content:"";position:absolute;width:20px;height:29px;border-radius:100% 10% 100% 10%;background:linear-gradient(145deg,var(--deep),var(--mint));top:0}.mark:before{left:3px;transform:rotate(-28deg)}.mark:after{right:3px;transform:scaleX(-1) rotate(-28deg)}.glow{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--mint);left:12px;bottom:1px;box-shadow:0 0 14px var(--mint)}.navlinks{display:flex;gap:28px;align-items:center;font-weight:700}.btn{display:inline-block;background:var(--deep);color:white;padding:13px 20px;border-radius:999px;font-weight:800}.hero{background:radial-gradient(circle at 72% 35%,rgba(112,230,193,.35),transparent 16%),radial-gradient(circle at 82% 60%,rgba(255,245,160,.18),transparent 9%),linear-gradient(135deg,#031f19,#075242);color:white;overflow:hidden}.hero .wrap{min-height:530px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:30px}.eyebrow{letter-spacing:.22em;color:var(--mint);font-weight:800}.hero h1{font-size:clamp(42px,6vw,70px);line-height:1.08;margin:12px 0 18px}.hero h1 span{color:var(--mint)}.hero p{font-size:18px;line-height:1.8;color:#d9eee7;max-width:570px}.hero-art{height:360px;position:relative}.orb{position:absolute;border-radius:50%;background:var(--mint);box-shadow:0 0 34px 10px rgba(112,230,193,.6)}.orb.big{width:48px;height:48px;right:40%;top:42%}.orb.s1{width:8px;height:8px;right:64%;top:60%}.orb.s2{width:12px;height:12px;right:74%;top:53%}.orb.s3{width:7px;height:7px;right:83%;top:64%}.wing{position:absolute;width:95px;height:145px;border-radius:100% 10% 100% 10%;background:linear-gradient(150deg,rgba(112,230,193,.95),rgba(255,255,255,.08));border:1px solid rgba(255,255,255,.7);right:29%;top:8%;transform:rotate(-25deg)}.wing.two{right:18%;transform:scaleX(-1) rotate(-25deg);background:linear-gradient(150deg,rgba(255,255,255,.1),rgba(112,230,193,.7))}.trail{position:absolute;width:340px;height:140px;border-bottom:3px solid var(--mint);border-radius:0 0 60% 60%;right:37%;top:39%;transform:rotate(-8deg)}section{padding:82px 0}.center{text-align:center}.kicker{font-size:13px;letter-spacing:.3em;color:#16876d;font-weight:900}.section-title{font-size:34px;margin:10px 0 38px}.values{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.value{padding:24px 18px;border:1px solid var(--line);border-radius:20px;background:var(--soft)}.value b{display:block;margin-bottom:8px;font-size:18px}.value span{color:#60726c}.services{background:#f7fbf9}.cards{display:grid;grid-template-columns:1fr 1fr;gap:24px}.card{min-height:310px;border-radius:26px;padding:34px;position:relative;overflow:hidden;border:1px solid var(--line);background:white}.card h3{font-size:30px;margin:4px 0 12px}.card p{line-height:1.7;color:#52655f;max-width:430px}.daramee{background:linear-gradient(135deg,#eafff6,#fff)}.nut{position:absolute;right:28px;bottom:20px;font-size:110px;filter:drop-shadow(0 10px 14px rgba(0,0,0,.12))}.building{background:linear-gradient(135deg,#eef8ff,#fff)}.building-icon{position:absolute;right:25px;bottom:10px;font-size:100px}.quote{padding:55px 0;background:linear-gradient(90deg,#f5fff9,#e8f8f1);font-size:26px;font-weight:900;text-align:center}.quote small{display:block;font-size:14px;color:#16876d;letter-spacing:.25em;margin-top:12px}footer{background:var(--deep2);color:#d7eee7;padding:48px 0}.foot{display:grid;grid-template-columns:1.2fr 1fr 1.3fr;gap:35px}.foot h4{color:white;margin-top:0}.foot p{line-height:1.8;color:#aac7be}.muted{font-size:13px;color:#8fb2a7;margin-top:30px}.notice{padding:12px 16px;border-radius:12px;background:rgba(112,230,193,.1);font-size:14px}@media(max-width:760px){.navlinks a:not(.btn){display:none}.hero .wrap{grid-template-columns:1fr;min-height:650px;padding-top:60px}.hero-art{height:220px}.hero h1{font-size:44px}.values,.cards,.foot{grid-template-columns:1fr}.values{gap:12px}section{padding:58px 0}.card{min-height:280px}.nut,.building-icon{opacity:.35}.section-title{font-size:28px}}
-</style></head>
+:root{
+  --deep:#073b31;
+  --deep2:#032820;
+  --mint:#70e6c1;
+  --mint2:#c8f7e8;
+  --ink:#12221e;
+  --soft:#f5fbf8;
+  --line:#dcebe5
+}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,"Noto Sans KR","Malgun Gothic",sans-serif;
+  color:var(--ink);
+  background:white
+}
+
+a{
+  text-decoration:none;
+  color:inherit
+}
+
+.wrap{
+  max-width:1120px;
+  margin:auto;
+  padding:0 24px
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:5;
+  background:rgba(255,255,255,.94);
+  border-bottom:1px solid var(--line);
+  backdrop-filter:blur(10px)
+}
+
+nav{
+  height:72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:900;
+  font-size:22px
+}
+
+.mark{
+  width:38px;
+  height:38px;
+  position:relative
+}
+
+.mark:before,
+.mark:after{
+  content:"";
+  position:absolute;
+  width:20px;
+  height:29px;
+  border-radius:100% 10% 100% 10%;
+  background:linear-gradient(145deg,var(--deep),var(--mint));
+  top:0
+}
+
+.mark:before{
+  left:3px;
+  transform:rotate(-28deg)
+}
+
+.mark:after{
+  right:3px;
+  transform:scaleX(-1) rotate(-28deg)
+}
+
+.glow{
+  position:absolute;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:var(--mint);
+  left:12px;
+  bottom:1px;
+  box-shadow:0 0 14px var(--mint)
+}
+
+.navlinks{
+  display:flex;
+  gap:28px;
+  align-items:center;
+  font-weight:700
+}
+
+.btn{
+  display:inline-block;
+  background:var(--deep);
+  color:white;
+  padding:13px 20px;
+  border-radius:999px;
+  font-weight:800
+}
+
+.hero{
+  background:
+    radial-gradient(
+      circle at 72% 35%,
+      rgba(112,230,193,.35),
+      transparent 16%
+    ),
+    radial-gradient(
+      circle at 82% 60%,
+      rgba(255,245,160,.18),
+      transparent 9%
+    ),
+    linear-gradient(135deg,#031f19,#075242);
+  color:white;
+  overflow:hidden
+}
+
+.hero .wrap{
+  min-height:530px;
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  align-items:center;
+  gap:30px
+}
+
+.eyebrow{
+  letter-spacing:.22em;
+  color:var(--mint);
+  font-weight:800
+}
+
+.hero h1{
+  font-size:clamp(42px,6vw,70px);
+  line-height:1.08;
+  margin:12px 0 18px
+}
+
+.hero h1 span{
+  color:var(--mint)
+}
+
+.hero p{
+  font-size:18px;
+  line-height:1.8;
+  color:#d9eee7;
+  max-width:570px
+}
+
+.hero-art{
+  height:360px;
+  position:relative
+}
+
+.orb{
+  position:absolute;
+  border-radius:50%;
+  background:var(--mint);
+  box-shadow:0 0 34px 10px rgba(112,230,193,.6)
+}
+
+.orb.big{
+  width:48px;
+  height:48px;
+  right:40%;
+  top:42%
+}
+
+.orb.s1{
+  width:8px;
+  height:8px;
+  right:64%;
+  top:60%
+}
+
+.orb.s2{
+  width:12px;
+  height:12px;
+  right:74%;
+  top:53%
+}
+
+.orb.s3{
+  width:7px;
+  height:7px;
+  right:83%;
+  top:64%
+}
+
+.wing{
+  position:absolute;
+  width:95px;
+  height:145px;
+  border-radius:100% 10% 100% 10%;
+  background:
+    linear-gradient(
+      150deg,
+      rgba(112,230,193,.95),
+      rgba(255,255,255,.08)
+    );
+  border:1px solid rgba(255,255,255,.7);
+  right:29%;
+  top:8%;
+  transform:rotate(-25deg)
+}
+
+.wing.two{
+  right:18%;
+  transform:scaleX(-1) rotate(-25deg);
+  background:
+    linear-gradient(
+      150deg,
+      rgba(255,255,255,.1),
+      rgba(112,230,193,.7)
+    )
+}
+
+.trail{
+  position:absolute;
+  width:340px;
+  height:140px;
+  border-bottom:3px solid var(--mint);
+  border-radius:0 0 60% 60%;
+  right:37%;
+  top:39%;
+  transform:rotate(-8deg)
+}
+
+section{
+  padding:82px 0
+}
+
+.center{
+  text-align:center
+}
+
+.kicker{
+  font-size:13px;
+  letter-spacing:.3em;
+  color:#16876d;
+  font-weight:900
+}
+
+.section-title{
+  font-size:34px;
+  margin:10px 0 38px
+}
+
+.values{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px
+}
+
+.value{
+  padding:24px 18px;
+  border:1px solid var(--line);
+  border-radius:20px;
+  background:var(--soft)
+}
+
+.value b{
+  display:block;
+  margin-bottom:8px;
+  font-size:18px
+}
+
+.value span{
+  color:#60726c
+}
+
+.services{
+  background:#f7fbf9
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px
+}
+
+.card{
+  min-height:310px;
+  border-radius:26px;
+  padding:34px;
+  position:relative;
+  overflow:hidden;
+  border:1px solid var(--line);
+  background:white
+}
+
+.card h3{
+  font-size:30px;
+  margin:4px 0 12px
+}
+
+.card p{
+  line-height:1.7;
+  color:#52655f;
+  max-width:430px
+}
+
+.daramee{
+  background:linear-gradient(135deg,#eafff6,#fff)
+}
+
+.nut{
+  position:absolute;
+  right:28px;
+  bottom:20px;
+  font-size:110px;
+  filter:drop-shadow(0 10px 14px rgba(0,0,0,.12))
+}
+
+.building{
+  background:linear-gradient(135deg,#eef8ff,#fff)
+}
+
+.building-icon{
+  position:absolute;
+  right:25px;
+  bottom:10px;
+  font-size:100px
+}
+
+.quote{
+  padding:55px 0;
+  background:linear-gradient(90deg,#f5fff9,#e8f8f1);
+  font-size:26px;
+  font-weight:900;
+  text-align:center
+}
+
+.quote small{
+  display:block;
+  font-size:14px;
+  color:#16876d;
+  letter-spacing:.25em;
+  margin-top:12px
+}
+
+footer{
+  background:var(--deep2);
+  color:#d7eee7;
+  padding:48px 0
+}
+
+.foot{
+  display:grid;
+  grid-template-columns:1.2fr 1fr 1.3fr;
+  gap:35px
+}
+
+.foot h4{
+  color:white;
+  margin-top:0
+}
+
+.foot p{
+  line-height:1.8;
+  color:#aac7be
+}
+
+.muted{
+  font-size:13px;
+  color:#8fb2a7;
+  margin-top:30px
+}
+
+.notice{
+  padding:12px 16px;
+  border-radius:12px;
+  background:rgba(112,230,193,.1);
+  font-size:14px;
+  line-height:1.8
+}
+
+@media(max-width:760px){
+  .navlinks a:not(.btn){
+    display:none
+  }
+
+  .hero .wrap{
+    grid-template-columns:1fr;
+    min-height:650px;
+    padding-top:60px
+  }
+
+  .hero-art{
+    height:220px
+  }
+
+  .hero h1{
+    font-size:44px
+  }
+
+  .values,
+  .cards,
+  .foot{
+    grid-template-columns:1fr
+  }
+
+  .values{
+    gap:12px
+  }
+
+  section{
+    padding:58px 0
+  }
+
+  .card{
+    min-height:280px
+  }
+
+  .nut,
+  .building-icon{
+    opacity:.35
+  }
+
+  .section-title{
+    font-size:28px
+  }
+}
+</style>
+</head>
+
 <body>
-<header><div class="wrap"><nav><a class="brand" href="#home"><span class="mark"><i class="glow"></i></span><span>Bandeene <small style="display:block;font-size:12px;font-weight:700">반디네</small></span></a><div class="navlinks"><a href="#about">반디네</a><a href="#services">서비스</a><a href="#contact">문의</a><a class="btn" href="mailto:admin@daramee.com">✉ 문의하기</a></div></nav></div></header>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#home">
+        <span class="mark">
+          <i class="glow"></i>
+        </span>
+
+        <span>
+          Bandeene
+          <small
+            style="display:block;font-size:12px;font-weight:700"
+          >
+            반디네
+          </small>
+        </span>
+      </a>
+
+      <div class="navlinks">
+        <a href="#about">반디네</a>
+        <a href="#services">서비스</a>
+        <a href="#contact">문의</a>
+
+        <a
+          class="btn"
+          href="mailto:admin@daramee.com"
+        >
+          ✉ 문의하기
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
 <main>
-<section class="hero" id="home"><div class="wrap"><div><div class="eyebrow">BANDEENE</div><h1>작은 빛에서 시작되는<br><span>좋은 아이디어.</span></h1><p>반디네는 일상의 불편을 발견하고, 사람을 위한 기술과 서비스를 만들어갑니다.</p><a class="btn" style="background:var(--mint);color:#073b31;margin-top:12px" href="#about">반디네 소개 보기 →</a></div><div class="hero-art" aria-hidden="true"><div class="trail"></div><div class="wing"></div><div class="wing two"></div><div class="orb big"></div><div class="orb s1"></div><div class="orb s2"></div><div class="orb s3"></div></div></div></section>
-<section id="about"><div class="wrap center"><div class="kicker">OUR VALUE</div><h2 class="section-title">사람을 위한 기술, 반디네가 만듭니다.</h2><div class="values"><div class="value"><b>👥 사람 중심</b><span>일상을 더 편리하게</span></div><div class="value"><b>💡 좋은 아이디어</b><span>작은 발견이 큰 변화를</span></div><div class="value"><b>🌱 지속적인 성장</b><span>더 나은 내일을 위해</span></div><div class="value"><b>♥ 함께하는 가치</b><span>사용자·파트너·지역사회와</span></div></div></div></section>
-<section class="services" id="services"><div class="wrap"><div class="center"><div class="kicker">OUR SERVICES</div><h2 class="section-title">반디네의 서비스</h2></div><div class="cards"><article class="card daramee"><div class="kicker">DARAMEE · 다람이</div><h3>놓치던 혜택을 차곡차곡.</h3><p>카드, 멤버십, 지역, 온라인 등 다양한 혜택을 한곳에서 찾고 정리할 수 있도록 준비하고 있는 생활 혜택 서비스입니다.</p><span class="btn" style="margin-top:12px">출시 준비 중</span><div class="nut">🌰</div></article><article class="card"><div class="kicker">BUILDING MANAGEMENT</div><h3>더 쉽고 정확한 시설관리.</h3><p>건물의 점검 일정과 시설 정보를 보다 편리하게 관리할 수 있는 스마트 시설관리 서비스를 준비하고 있습니다.</p><span class="btn" style="margin-top:12px">서비스 준비 중</span><div class="building-icon">🏢</div></article></div></div></section>
-<div class="quote">“작은 빛이 모여, 더 좋은 내일을 만듭니다.”<small>BANDEENE</small></div>
+
+<section class="hero" id="home">
+  <div class="wrap">
+
+    <div>
+      <div class="eyebrow">BANDEENE</div>
+
+      <h1>
+        작은 빛에서 시작되는<br>
+        <span>좋은 아이디어.</span>
+      </h1>
+
+      <p>
+        반디네는 일상의 불편을 발견하고,
+        사람을 위한 기술과 서비스를 만들어갑니다.
+      </p>
+
+      <a
+        class="btn"
+        style="
+          background:var(--mint);
+          color:#073b31;
+          margin-top:12px
+        "
+        href="#about"
+      >
+        반디네 소개 보기 →
+      </a>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="trail"></div>
+      <div class="wing"></div>
+      <div class="wing two"></div>
+      <div class="orb big"></div>
+      <div class="orb s1"></div>
+      <div class="orb s2"></div>
+      <div class="orb s3"></div>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap center">
+
+    <div class="kicker">
+      OUR VALUE
+    </div>
+
+    <h2 class="section-title">
+      사람을 위한 기술, 반디네가 만듭니다.
+    </h2>
+
+    <div class="values">
+
+      <div class="value">
+        <b>👥 사람 중심</b>
+        <span>일상을 더 편리하게</span>
+      </div>
+
+      <div class="value">
+        <b>💡 좋은 아이디어</b>
+        <span>작은 발견이 큰 변화를</span>
+      </div>
+
+      <div class="value">
+        <b>🌱 지속적인 성장</b>
+        <span>더 나은 내일을 위해</span>
+      </div>
+
+      <div class="value">
+        <b>♥ 함께하는 가치</b>
+        <span>사용자·파트너·지역사회와</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+
+    <div class="center">
+      <div class="kicker">
+        OUR SERVICES
+      </div>
+
+      <h2 class="section-title">
+        반디네의 서비스
+      </h2>
+    </div>
+
+    <div class="cards">
+
+      <article class="card daramee">
+
+        <div class="kicker">
+          DARAMEE · 다람이
+        </div>
+
+        <h3>
+          놓치던 혜택을 차곡차곡.
+        </h3>
+
+        <p>
+          카드, 멤버십, 지역, 온라인 등
+          다양한 혜택을 한곳에서 찾고 정리할 수 있도록
+          준비하고 있는 생활 혜택 서비스입니다.
+        </p>
+
+        <span
+          class="btn"
+          style="margin-top:12px"
+        >
+          출시 준비 중
+        </span>
+
+        <div class="nut">
+          🌰
+        </div>
+
+      </article>
+
+      <article class="card">
+
+        <div class="kicker">
+          BUILDING MANAGEMENT
+        </div>
+
+        <h3>
+          더 쉽고 정확한 시설관리.
+        </h3>
+
+        <p>
+          건물의 점검 일정과 시설 정보를
+          보다 편리하게 관리할 수 있는
+          스마트 시설관리 서비스를 준비하고 있습니다.
+        </p>
+
+        <span
+          class="btn"
+          style="margin-top:12px"
+        >
+          서비스 준비 중
+        </span>
+
+        <div class="building-icon">
+          🏢
+        </div>
+
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<div class="quote">
+  “작은 빛이 모여, 더 좋은 내일을 만듭니다.”
+  <small>BANDEENE</small>
+</div>
+
 </main>
-<footer id="contact"><div class="wrap foot"><div><div class="brand" style="color:white"><span class="mark"><i class="glow"></i></span><span>Bandeene <small style="display:block;font-size:12px">반디네</small></span></div><p>Better ideas, brighter everyday.</p></div><div><h4>바로가기</h4><p><a href="#about">회사소개</a><br><a href="#services">서비스</a><br>개인정보처리방침 · 준비 중<br>이용약관 · 준비 중</p></div><div><h4>문의</h4><p><a href="mailto:admin@daramee.com">admin@daramee.com</a></p><div class="notice">사업장 주소 등 법정 표기 정보는 사업장 이전 완료 후 정확한 정보로 반영합니다.</div></div></div><div class="wrap muted">© 2026 Bandeene. All rights reserved.</div></footer>
-</body></html>
+
+<footer id="contact">
+
+  <div class="wrap foot">
+
+    <div>
+
+      <div
+        class="brand"
+        style="color:white"
+      >
+
+        <span class="mark">
+          <i class="glow"></i>
+        </span>
+
+        <span>
+          Bandeene
+          <small
+            style="display:block;font-size:12px"
+          >
+            반디네
+          </small>
+        </span>
+
+      </div>
+
+      <p>
+        Better ideas, brighter everyday.
+      </p>
+
+    </div>
+
+    <div>
+
+      <h4>
+        바로가기
+      </h4>
+
+      <p>
+        <a href="#about">회사소개</a><br>
+        <a href="#services">서비스</a><br>
+        개인정보처리방침 · 준비 중<br>
+        이용약관 · 준비 중
+      </p>
+
+    </div>
+
+    <div>
+
+      <h4>
+        문의 및 사업자정보
+      </h4>
+
+      <p>
+        <a href="mailto:admin@daramee.com">
+          admin@daramee.com
+        </a>
+      </p>
+
+      <div class="notice">
+        <strong>반디네</strong><br>
+        대표자 : 허영구<br>
+        사업자등록번호 : 595-18-02137<br>
+        사업장 소재지 : 경기도 하남시 미사강변동로 79,<br>
+        11층 1101-053호 (망월동, 미사역타워)
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="wrap muted">
+    © 2026 Bandeene. All rights reserved.
+  </div>
+
+</footer>
+
+</body>
+</html>
